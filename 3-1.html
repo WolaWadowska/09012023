@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img{
+          width: 250px;  
+           height: 250px;
+        }
+        tr{
+            
+           margin: 400px;
+        }
+       
+    a{
+        background-color: blue;
+    }
+    
+    </style>
+    <script>
+        function papuga()
+        {
+            document.getElementById("wynik").innerHTML="Papuga"
+            document.getElementById("tresc").innerHTML="Papużko papużko,<br> Powiedz mi cos na uszko. <br> Nic nie powiem boś ty plotkarz,<br>Powtorzysz Kazdemu kogo spotkasz.";
+        }
+    
+        function zyrafa()
+        {
+            document.getElementById("wynik").innerHTML="zyrafa"
+            document.getElementById("tresc").innerHTML="Zyrafa tym glownie zyje <br> ze w gore wyciaga szyje.<br> a ja zazdroszcze zyrafie,<br> ja nie potrafię. ";
+        }
+    
+        function krokodyl()
+        {
+            document.getElementById("wynik").innerHTML="krokodyl"
+            document.getElementById("tresc").innerHTML="skad ty jestes krokodylu?<br> ja? znad Nilu<br> Wypusc mnie na kilka chwil<br> to zawioze cie nad Nil.";
+        }
+    
+        function zebra()
+        {
+            document.getElementById("wynik").innerHTML="zebra"
+            document.getElementById("tresc").innerHTML="ZCzy ta zebra jest Prawdziwa?<br> Czy to tak naprawde bywa?<br> czy tez malarz bozej laski<br> pomalowal osla w paski?";
+        }
+    
+    
+        function wilk()
+        {
+            document.getElementById("wynik").innerHTML="wilk"
+            document.getElementById("tresc").innerHTML="Co mysle o tym wilku:<br> gdyby nie byl na obrazku<br> zaraz by cie zjadl gluptasku";
+        }
+       
+    
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <table style="width: 1500px; background-color: greenyellow;"><tr>
+    <td><img src="krokodyl.jpg" id="korkodyl" onmouseover="krokodyl()"> </td>
+    <td> <img src="papuga.jpg" id="papuga" onmouseover="papuga()" ></td>
+    <td> <img src="wilk.jpg" id="wilk" onmouseover="wilk()" ></td>
+    <td><img src="zebra.jpg" id="zebra" onmouseover="zebra()" ></td>
+    <td> <img src="zyrafa.jpg" id="zyrafa" onmouseover="zyrafa()" ></td>
+</table>
+<a>   
+<div id="wynik" style="width: 1500px; padding: 15px;  background-color: rgb(96, 96, 180); font-size: 34px;"></div>
+</a> 
+<div id="tresc"style="width: 1500px; padding: 15px;  background-color: cyan; font-size: 14px;"></div>
+
+
+</table>
+</center>
+</body>
+</html>
